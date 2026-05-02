@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://quizverse-backend-xtrk.onrender.com";
 
 const EXAMPLE_TOPICS = [
   { label: "General Knowledge", value: "General Knowledge" },
